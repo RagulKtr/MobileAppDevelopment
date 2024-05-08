@@ -16,7 +16,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
     <div class="container">
       <a class="navbar-brand" href="#" style="padding: 0;">
-        <img src="../About/aboutImages/Logo.png" alt="Logo" class="nav-logo">
+        <img src="./MobileApp Image/Logo.png" alt="Logo" class="nav-logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
       <div class="sidebar">
         <div class="sidebar-header">
           <a class="navbar-brand" href="#" style="padding: 0;">
-            <img src="../About/aboutImages/Logo.png" alt="Logo" class="nav-logo-sidebar">
+            <img src="./MobileApp Image/Logo.png" alt="Logo" class="nav-logo-sidebar">
           </a>
           <span class="cancel-icon" onclick="closeSidebar()">&times;</span>
         </div>
@@ -715,24 +715,24 @@ var acc = document.getElementsByClassName("web-development-accordion");
 var i;
 
 // Open the first accordion initially
-acc[0].classList.add("active");
+acc[0].classList.add("active-line");
 var panel = acc[0].nextElementSibling;
 panel.style.maxHeight = panel.scrollHeight + "px";
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     var panel = this.nextElementSibling;
-    var isActive = this.classList.contains("active");
+    var isActive = this.classList.contains("active-line");
 
     // Close all panels
     for (var j = 0; j < acc.length; j++) {
-      acc[j].classList.remove("active");
+      acc[j].classList.remove("active-line");
       acc[j].nextElementSibling.style.maxHeight = null;
     }
 
     // Toggle active class and open/close clicked panel
     if (!isActive) {
-      this.classList.add("active");
+      this.classList.add("active-line");
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
   });
@@ -1561,7 +1561,7 @@ for (i = 0; i < acc.length; i++) {
   <div class="section13layout">
       <div class="section13header">
           
-              <h1 class="section13heading">Frequently Asked <span>Questions <img src="./webdev image/Rectangle 81.png"/></span></h1>
+              <h1 class="section13heading">Frequently Asked <span>Questions <img src="./MobileApp Image/Rectangle 81.png"/></span></h1>
           
           </div>
           <div class="container">
@@ -1705,7 +1705,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </div> -->
           </div>
           <div class="col-md-6 form-content2 d-flex justify-content-center align-items-center">
-              <img src="../About/aboutImages/session11circle.png" class="circleimage">
+              <img src="./MobileApp Image/Ellipse 32.png" class="circleimage">
               <div class="form-container">
                   <h3 class="form-text">Send Your <span class="form-touch">Idea's</span></h3>
                   <div class="form-line"></div>
@@ -1735,7 +1735,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
       </div>
       <!-- <img src="../About/aboutImages/dot.png" class="dotimage"> -->
-      <img src="../About/aboutImages/session11arrow.png" class="arrowimage">
+      <img src="./MobileApp Image/scribble 1.png" class="arrowimage">
   </div>
 </div>
 
@@ -1858,8 +1858,8 @@ document.addEventListener('DOMContentLoaded', function() {
               menu.classList.toggle('active');
 
               // Toggle the icon between chevron-down and chevron-up
-              h3.querySelector('i').classList.toggle('bi-chevron-down');
-              h3.querySelector('i').classList.toggle('bi-chevron-up');
+              h3.querySelector('bi').classList.toggle('bi-chevron-down');
+              h3.querySelector('bi').classList.toggle('bi-chevron-up');
           });
       });
   });
