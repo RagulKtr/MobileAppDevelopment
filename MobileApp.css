@@ -356,7 +356,7 @@ text-align: left;
   color: rgba(255, 255, 255, 1);
   padding: 10px 20px;
 }
-.accordion {
+.web-development-accordion {
   color: rgba(65, 64, 66, 1);
   cursor: pointer;
   padding: 18px;
@@ -372,7 +372,7 @@ text-align: left;
   background-color: white;
 }
 
-.accordion.active {
+.web-development-accordion.active-line {
   color: rgba(44, 160, 104, 1); /* Color when active (green) */
   font-family: 'Source Sans Pro',sans-serif;
   font-size: 18px;
@@ -381,7 +381,7 @@ text-align: left;
   text-align: left;
 }
 
-.accordion:after {
+.web-development-accordion:after {
   content: '\002B';
   color: #777;
   font-weight: bold;
@@ -389,7 +389,7 @@ text-align: left;
   margin-left: 5px;
 }
 
-.active:after {
+.active-line:after {
   content: "\2212";
   color: rgba(44, 160, 104, 1);
 }
@@ -2477,7 +2477,7 @@ color: #2CA068;
 .form-background {
   margin: 0;
   padding: 0;
-  background: url('../About/aboutImages/session11bg.png') no-repeat center center;
+  background: url('./MobileApp\ Image/CTA_bg.png') no-repeat center center;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 95px;
