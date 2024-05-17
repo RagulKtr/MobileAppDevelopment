@@ -100,7 +100,7 @@ text-align: left;
     width: 100%;
     height: auto;
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 51px;
+    font-size: 48px;
     font-weight: 600;
     line-height: 70.39px;
     text-align: left;
@@ -188,7 +188,7 @@ text-align: left;
     }
     .Mobile-App-development-Service-heading{
         width: 100%;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 600;
         line-height: 45.25px;
     }
@@ -346,6 +346,7 @@ text-align: left;
   .devops-consulting-services{
       display: none;
   }
+  
   .devops-consulting-services-mobile{
     display: block;
     margin-top: 0;
@@ -355,7 +356,7 @@ text-align: left;
   }
   .devops-consulting-services-header h1{
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
@@ -417,6 +418,17 @@ text-align: left;
   content: "\2212";
   color: rgba(44, 160, 104, 1);
 }
+.devops-consulting-services-header{
+  width: 100%;
+}
+.consulting-heading{
+  width: 100%;
+  font-size: 33px;
+  /* background-color: #137747; */
+}
+.consulting-heading span{
+  font-size: 33px;
+}
 
 .panel {
   padding: 0 18px;
@@ -469,9 +481,9 @@ text-align: left;
     width: 100%;
   }
   .Mobile-App-For-Various-Platforms{
-    width: 100%;
+    width: 100% !important;
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 44px;
+    font-size: 47px;
     font-weight: 600;
     line-height: 60.34px;
     text-align: left;
@@ -561,13 +573,13 @@ text-align: left;
       }
       .Mobile-App-For-Various-Platforms{
         width: 100%;
-        font-size: 30px;
+        font-size: 32px;
         font-weight: 600;
         line-height: 40px;
         text-align: left;
       }
       .Mobile-App-For-Various-Platforms span{
-        font-size: 30px;
+        font-size: 32px;
         font-weight: 600;
         line-height: 40px;
         text-align: left;
@@ -829,7 +841,7 @@ text-align: left;
 .Mobile-App-Development-Technologies-heading1{
   width: 100%;
   font-family: 'Source Sans Pro',sans-serif;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 60px;
   text-align: left;
@@ -846,7 +858,7 @@ text-align: left;
   color: #000000;
 }
 .Mobile-App-Development-Technologies-heading1 span{
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 60px;
   text-align: left;
@@ -895,7 +907,7 @@ color: #2CA068;
   }
   .Mobile-App-Development-Technologies-heading1{
     width: 100%;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
@@ -912,7 +924,7 @@ color: #2CA068;
     color: #000000;
   }
   .Mobile-App-Development-Technologies-heading1 span{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
@@ -965,14 +977,14 @@ color: #2CA068;
 .Development-Methodologies-heading{
   width: 100%;
   font-family: 'Source Sans Pro',sans-serif;
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
   text-align: left;
   color: #000000;
 }
 .Development-Methodologies-heading span{
-  font-size: 46px;
+  font-size: 48px;
   font-family: 'Source Sans Pro',sans-serif;
   font-weight: 600;
   line-height: 60.34px;
@@ -1515,14 +1527,14 @@ color: #2CA068;
 
     .Emerging-Technologies-header h2{
       font-family: 'Source Sans Pro',sans-serif;
-      font-size: 39px;
+      font-size: 48px;
       font-weight: 600;
       line-height: 60.34px;
       text-align: left;
     }
     .Emerging-Technologies-header span{
       font-family: 'Source Sans Pro',sans-serif;
-      font-size: 39px;
+      font-size: 48px;
       font-weight: 700;
       line-height: 60.34px;
       text-align: center;
@@ -1981,6 +1993,9 @@ color: #2CA068;
     justify-content: left;
     margin-left: 3px;
     margin-bottom: 0;
+  }
+  .mobileapp-case-right-button{
+    margin-left: -12px;
   }
   .mobile-app-case-heading span{
     font-size: 32px;
