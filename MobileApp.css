@@ -226,6 +226,7 @@
         font-weight: 700;
         line-height: 20.11px;
         text-align: center;
+        height: 37px;
     }
   }
 /*section 2===================================================*/
@@ -773,10 +774,11 @@
         justify-content: center;
     }
     .Mobile-App-Why-Choose-button{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 22.63px;
         text-align: left;
+        height: 38px;
     }
     .Mobile-App-Why-Choose-image{
         margin-top: 30px;
@@ -1470,10 +1472,11 @@ color: #2CA068;
     text-align: left;
   }
   .Engagement-Models-button{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 25.14px;
     margin-top: 50px !important;
+    /* height: 40px; */
   }
 }
 
@@ -2188,7 +2191,7 @@ border: none !important;
 opacity: 0px;
 }
 .dot-indicator.active {
-background-color: green !important;
+background-color: #2CA068 !important;
 width: 24px !important;
 height: 8px;
 gap: 0px;
@@ -2993,6 +2996,9 @@ textarea {
     line-height: 22px;
     width: 100%;
     background-color: #2CA068;
+  }
+  .form-paragraph{
+    font-size: 14px !important;
   }
 
   .form-point {
