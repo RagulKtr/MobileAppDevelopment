@@ -1705,6 +1705,19 @@ color: #2CA068;
       }
     }
 
+    @media (min-width:401px) and (max-width: 425px){
+      .carousel-control-prev,
+      .carousel-control-next {
+        margin-top: 400px !important;
+      }
+      .carousel-control-prev{
+        margin-left: 38%;
+      }
+      .carousel-control-next{
+        margin-right: 38%;
+      }
+    }
+
 
 
 /*section 9===========================================================================================*/
@@ -2461,7 +2474,7 @@ padding: 10px;
 .News-and-Blogs-mobileview {
   display: none;
 }
-@media only screen and (max-width: 320px){
+@media only screen and (min-width:301px) and (max-width: 362px){
   .News-and-Blogs-webview {
     display: none;
   }
