@@ -1680,7 +1680,7 @@ color: #2CA068;
         margin-right: 40%;
       }
     }
-    @media screen and (max-width: 320px){
+    @media screen  and (max-width: 320px){
       .carousel-control-prev,
       .carousel-control-next {
         margin-top: 100%;
@@ -1692,7 +1692,7 @@ color: #2CA068;
         margin-right: 35%;
       }
     }
-    @media (min-width:321px) and (max-width: 376px){
+    @media (min-width:321px) and (max-width: 400px){
       .carousel-control-prev,
       .carousel-control-next {
         margin-top: 270px;
@@ -2279,6 +2279,7 @@ padding: 10px;
 
 .ourtestimoniallayout{
   width: 100%;
+  padding: 0%;
 }
 .ratingsection10{
   margin-right: -20px;
@@ -2291,17 +2292,32 @@ padding: 10px;
 }
 @media only screen and (max-width: 320px){
   .carousel-item-testimonial{
-    padding: 3px;
+    padding: 8px;
+    width: 100% !important;
+  }
+  .ourtestimoniallayout{
+    padding: 0;
+    width: 100%;
   }
   .carousel-indicators-row{
     margin-top: 1px;
   }
+  .carousel-inner{
+    padding: 0px;
+    margin: 0;
+  }
   .mizaraproject{
-    margin-left: 8px;
-    font-size: 10px;
+    margin-left: 9px;
+    font-size: 9px;
 }
 .group68{
   margin-left: 20px;
+}
+.bi-star-fill{
+  font-size: 12px;
+}
+.bi-star-half{
+  font-size: 12px;
 }
 .section10backgroundimage{
   height: 540px !important;
@@ -2310,7 +2326,7 @@ padding: 10px;
 }
 @media only screen and (width: 375px){
   .carousel-item-testimonial{
-    padding: 3px;
+    padding: 6px;
   }
   .mizaraproject{
     margin-left: 0 !important;
